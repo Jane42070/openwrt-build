@@ -29,7 +29,7 @@ sed -i 's/ssid=OpenWrt/ssid=BiuBiuBiuBiu/g' package/kernel/mac80211/files/lib/wi
 sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #wifi密码
-#sed -i 's/key=15581822425/key=gds.2021/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/key=15581822425/key=neovim42070/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
